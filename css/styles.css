@@ -40,7 +40,7 @@ li{
     color: white;
 }
 .Logo{
-    height: 10vh;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,8 +48,8 @@ footer{
     width: 98vw;
     height: 90px;
     background-color: #344288;
-    position: relative;
-    bottom: 10vw;
+    position: absolute;
+    bottom: 0vw;
 }
 h1{
     color: cornflowerblue;
@@ -64,25 +64,28 @@ nav{
 }
 header{
     background-color: #344288;
+    height: 110px;
     width: 98vw;
 }
 .HeroImage{
     width: 98vw;
+    height: 75vh;
     background-color: #344288;
+    object-fit: cover;
 }
 .titleText{
     position: relative;
     text-align: center;
     color: white;
     font-size: 50px;
-    bottom: 60vw;
+    bottom: 70vh;
 }
 .HeroText{
     position: relative;
     text-align: center;
     color: white;
     font-size: 30px;
-    bottom: 60vw;
+    bottom: 70vh;
 }
 iframe{
     width:600px; 
@@ -90,12 +93,12 @@ iframe{
 }
 .mapsiframe{
     position: relative;
-    bottom: 60vw;
+    bottom: 70vh;
     left: 20vw;
 }
 .videoiframe{
     position: relative;
-    bottom: 60vw;
+    bottom: 70vh;
     left: 10vw;
 }
 /* Style inputs with type="text", select elements and textareas */
@@ -131,7 +134,7 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
     position: relative;
-    bottom: 60vw;
+    bottom: 80vh;
     width: 60%;
     margin: auto;
 
